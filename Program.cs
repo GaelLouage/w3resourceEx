@@ -8,10 +8,10 @@ internal class Program
         //Console.WriteLine(basicAlgo.CopyFrontChars4Times("C Sharp"));
         //Console.WriteLine(basicAlgo.CopyFrontChars4Times("JS"));
         //Console.WriteLine(basicAlgo.CopyFrontChars4Times("a"));
-        Console.WriteLine(basicAlgo.LastCharToFrontAndBack("Green"));
+        //Console.WriteLine(basicAlgo.LastCharToFrontAndBack("Green"));
         var stringEx = new StringExercises();
         //Console.WriteLine(stringEx.SeparateStringWithSpaces("w3resource.com"));
-
+        //Console.WriteLine(stringEx.SeparateStringWithoutSpacesInReverse("w3resource.com"));
 
         //var recEx = new RecursionEx();
         //var num = 1;
