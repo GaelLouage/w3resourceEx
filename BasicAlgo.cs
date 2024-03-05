@@ -13,5 +13,12 @@ namespace CSharpExercises2
         {
             return text.Length < 2 ? text : string.Join("", Enumerable.Range(0, 4).Select(x => $"{text.Substring(0,2)}"));
         }
+        //9. Write a C# Sharp program to create a string with the last char added at the front and back of a given string of length 1 or more. 
+        public string LastCharToFrontAndBack(string text)
+        {
+            if (string.IsNullOrEmpty(text)) return "";
+            var firstChar = text[text.Length-1];
+            return text.Length > 1 ? $"{ firstChar }{ text }{firstChar}": text;
+        }
     }
 }
