@@ -13,9 +13,11 @@ internal class Program
         //Console.WriteLine(stringEx.SeparateStringWithSpaces("w3resource.com"));
         //Console.WriteLine(stringEx.SeparateStringWithoutSpacesInReverse("w3resource.com"));
 
-        //var recEx = new RecursionEx();
+        var recEx = new RecursionEx();
         //var num = 1;
         //recEx.PrintFirstNaturalNumbers(num);
+        var num = 10;
+        recEx.PrintNumbersFromNTo1(num);
 
 
 
