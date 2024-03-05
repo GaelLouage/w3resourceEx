@@ -16,12 +16,15 @@ internal class Program
         var recEx = new RecursionEx();
         //var num = 1;
         //recEx.PrintFirstNaturalNumbers(num);
-        var num = 10;
-        recEx.PrintNumbersFromNTo1(num);
+        //var num = 10;
+        //recEx.PrintNumbersFromNTo1(num);
 
 
 
         var linqEx = new LinqExercises();
+        Console.WriteLine(string.Join( "\n", linqEx.FindNumberOfArrayAndSquareQuery([9,8,6,5])));
+        Console.WriteLine();
+        Console.WriteLine(string.Join("\n", linqEx.FindNumberOfArrayAndSquareMethod([9, 8, 6, 5])));
         //Console.WriteLine(string.Join(" ",linqEx.NumbersBetween1And11([1,5,8,97,123,5,11])));
         Console.ReadLine();
     }
