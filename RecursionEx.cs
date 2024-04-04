@@ -24,5 +24,13 @@ namespace CSharpExercises2
           
             PrintNumbersFromNTo1(n-1);
         }
+        //3. Write a program in C# Sharp to find the sum of the first n natural numbers using recursion. 
+        public int PrintSumOfFirstNaturalNumbers(int n,ref int res)
+        {
+            if(n < 1) return 0;
+            res += n;
+           
+            return  PrintSumOfFirstNaturalNumbers(n - 1,ref res);
+        }
     }
 }

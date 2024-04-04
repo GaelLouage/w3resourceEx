@@ -18,6 +18,11 @@ internal class Program
         //Console.WriteLine(stringEx.SeparateStringWithoutSpacesInReverse("w3resource.com"));
         //Console.WriteLine(stringEx.GetTotalWordsIn("This is w3resource.com"));
         var recEx = new RecursionEx();
+        var num = 10;
+        int sum = 0;
+        recEx.PrintSumOfFirstNaturalNumbers(num,ref sum);
+        Console.WriteLine(sum);
+
         //var num = 1;
         //recEx.PrintFirstNaturalNumbers(num);
         //var num = 10;
