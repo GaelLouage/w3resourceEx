@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,6 +20,11 @@ namespace CSharpExercises2
             if (string.IsNullOrEmpty(text)) return "";
             var firstChar = text[text.Length-1];
             return text.Length > 1 ? $"{ firstChar }{ text }{firstChar}": text;
+        }
+        //10. Write a C# Sharp program to check if a given positive number is a multiple of 3 or 7. 
+        public bool IsMultilplyOf7Or3(int number)
+        {
+            return number % 3 == 0 || number % 7 == 0;
         }
     }
 }
