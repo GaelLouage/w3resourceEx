@@ -20,5 +20,12 @@ namespace CSharpExercises2
             if (string.IsNullOrEmpty(text)) return "";
             return string.Join(" ", text.ToCharArray().Reverse());
         }
+        //5. Write a program in C# Sharp to count the total number of words in a string. 
+        public int GetTotalWordsIn(string text)
+        {
+            if(string.IsNullOrEmpty(text)) return 0;
+            if(!text.Contains(" ")) return 1;
+            return text.Split(' ').Length;
+        }
     }
 }
